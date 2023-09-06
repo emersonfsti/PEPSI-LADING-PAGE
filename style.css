@@ -13,7 +13,53 @@
 }
 
 body {
-background-color: var(--blue-dark);
-color: var(--white);
-height: 100vh;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    height: 100vh;
+}
+
+body,
+button,
+input,
+textarea {
+    font: 400 16px 'Rubik', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 15px 16px;
+}
+
+.header-navigation-container{
+    display: flex;
+    gap: 25px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-navigation li {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
 }
