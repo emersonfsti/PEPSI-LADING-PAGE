@@ -17,6 +17,10 @@ body {
     background-color: var(--blue-dark);
     color: var(--white);
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 body,
@@ -47,6 +51,12 @@ li {
     max-width: 1120px;
     margin: 0 auto;
     padding: 15px 16px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
 }
 
 .header-navigation-container {
