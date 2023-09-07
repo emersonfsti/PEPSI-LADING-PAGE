@@ -228,3 +228,17 @@ main {
     font-weight: 300;
     text-transform: uppercase;
 }
+
+.social-medias-container{
+    position: fixed;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-medias-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
