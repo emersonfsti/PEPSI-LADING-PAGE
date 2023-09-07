@@ -2,7 +2,7 @@
     --blue-dark: #070a4e;
     --blue-medium: #252872;
     --blue-light: #646693;
-    --red:#fc0303;
+    --red: #fc0303;
     --white: #fff;
     --black: #000;
 }
@@ -49,7 +49,7 @@ li {
     padding: 15px 16px;
 }
 
-.header-navigation-container{
+.header-navigation-container {
     display: flex;
     gap: 25px;
 }
@@ -65,16 +65,16 @@ li {
     text-transform: uppercase;
 }
 
-.header-navigation li.active{
+.header-navigation li.active {
     font-weight: 600px;
 }
 
-.header-navigation li a{
+.header-navigation li a {
     padding: 10px;
 }
 
 .purchase-button {
-    font: 500 12px 'Inter', sans-serif    ;
+    font: 500 12px 'Inter', sans-serif;
     text-transform: uppercase;
     background-color: transparent;
     color: var(--white);
@@ -85,12 +85,12 @@ li {
     transition: backcolor-color 0.2s, border-color 0.2s;
 }
 
-.purchase-button:hover{
+.purchase-button:hover {
     background-color: var(--red);
     border-color: var(--red);
 }
 
-main{
+main {
     width: 100%;
     max-width: 1120px;
     margin: 72px auto 0;
@@ -99,43 +99,43 @@ main{
     display: flex;
 }
 
-.main-section{
+.main-section {
     max-width: 645px;
     padding-left: 40px;
 }
 
-.main-title{
+.main-title {
     font-weight: 500;
     font-size: 40px;
 }
 
-.main-description{
+.main-description {
     margin-top: 18px;
     font-weight: 300;
 }
 
-.nutritional-container{
+.nutritional-container {
     margin-top: 47px;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.nutritional-title{
+.nutritional-title {
     font-weight: 500;
     text-transform: uppercase;
 }
 
-.nutritional-items-container{
+.nutritional-items-container {
     display: flex;
     gap: 15px;
 }
 
-.nutritional-items-container li{
+.nutritional-items-container li {
     width: 117px;
 }
 
-.nutritional-items-container li > div{
+.nutritional-items-container li>div {
     padding: 20px 0;
     background-color: var(--blue-medium);
 
@@ -145,16 +145,17 @@ main{
     gap: 12px;
 }
 
-.nutritional-items-container li > div strong {
+.nutritional-items-container li>div strong {
     font-weight: 600;
     font-size: 24px;
 }
 
-.nutritional-items-container li > footer{
+.nutritional-items-container li>footer {
     padding: 10px 0;
     background-color: var(--blue-light);
 
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .nutritional-details {
@@ -163,30 +164,67 @@ main{
     max-width: 375px;
 }
 
-.nutritional-purchase-button{
+.nutritional-purchase-button {
     margin-top: 63px;
 }
 
-.pepsi-imagens-container{
+.pepsi-imagens-container {
     flex: 1;
     position: relative;
 }
 
-.little-can{
+.little-can {
     position: absolute;
     bottom: 0;
     right: 202px;
 }
 
-.large-can{
+.large-can {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-.can-shadow{
+.can-shadow {
     position: absolute;
     right: 0;
     top: 86%;
     z-index: -1;
+}
+
+.info-right-bottom-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-width: 110px;
+
+    background-color: var(--blue-light);
+    padding-bottom: 10px;
+
+}
+
+.info-right-bottom-container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 12px;
+
+    background-color: var(--blue-medium);
+}
+
+.info-right-bottom-container > div strong {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.info-right-bottom-container > div small {
+    margin: 2px 0 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.info-right-bottom-container > div span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
