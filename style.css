@@ -242,3 +242,17 @@ main {
     align-items: center;
     gap: 35px;
 }
+
+.background-blur{
+    background-color: var(--white);
+    width: 370px;
+    height: 370px;
+    position: fixed;
+    top:0 ;
+    right: 0;
+
+    filter: blur(250px);
+    z-index: -1;
+
+
+}
